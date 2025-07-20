@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Ángel Hidalgo - Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">MAH</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-es="Sobre mí" data-en="About">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link" data-es="Estudios" data-en="Education">Estudios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-es="Experiencia" data-en="Experience">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-es="Proyectos" data-en="Projects">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-es="Habilidades" data-en="Skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a>
+                </li>
+            </ul>
+            <div class="language-toggle">
+                <button id="langToggle" class="lang-btn">
+                    <span class="lang-text">EN</span>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting" data-es="Hola, soy" data-en="Hi, I'm">Hola, soy</span>
+                    <span class="name">Miguel Ángel Hidalgo</span>
+                </h1>
+                <p class="hero-subtitle" data-es="Desarrollador Full Stack & Analista de Datos" data-en="Full Stack Developer & Data Analyst">
+                    Desarrollador Full Stack & Analista de Datos
+                </p>
+                <p class="hero-description" data-es="Apasionado por la tecnología, con experiencia en desarrollo web, análisis de datos y automatización. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente." data-en="Passionate about technology, with experience in web development, data analysis, and automation. Always seeking new challenges and opportunities for professional growth.">
+                    Apasionado por la tecnología, con experiencia en desarrollo web, análisis de datos y automatización. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-es="Contáctame" data-en="Contact Me">Contáctame</a>
+                    <a href="#projects" class="btn btn-secondary" data-es="Ver Proyectos" data-en="View Projects">Ver Proyectos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-container">
+                    <div class="profile-bg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-es="Sobre mí" data-en="About Me">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-es="Soy un desarrollador apasionado con experiencia en tecnologías web modernas y análisis de datos. Me especializo en crear soluciones eficientes y user-friendly que resuelvan problemas reales." data-en="I'm a passionate developer with experience in modern web technologies and data analysis. I specialize in creating efficient and user-friendly solutions that solve real-world problems.">
+                        Soy un desarrollador apasionado con experiencia en tecnologías web modernas y análisis de datos. Me especializo en crear soluciones eficientes y user-friendly que resuelvan problemas reales.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p data-es="Años de Experiencia" data-en="Years of Experience">Años de Experiencia</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p data-es="Proyectos Completados" data-en="Completed Projects">Proyectos Completados</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p data-es="Tecnologías Dominadas" data-en="Technologies Mastered">Tecnologías Dominadas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-container">
+                        <div class="about-img-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-es="Educación" data-en="Education">Educación</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-es="Grado Superior en Desarrollo de Aplicaciones Web" data-en="Higher Degree in Web Application Development">Grado Superior en Desarrollo de Aplicaciones Web</h3>
+                        <p class="timeline-date">2022 - 2024</p>
+                        <p data-es="Formación completa en desarrollo web, incluyendo frontend, backend, bases de datos y metodologías ágiles." data-en="Complete training in web development, including frontend, backend, databases, and agile methodologies.">
+                            Formación completa en desarrollo web, incluyendo frontend, backend, bases de datos y metodologías ágiles.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-es="Certificaciones Técnicas" data-en="Technical Certifications">Certificaciones Técnicas</h3>
+                        <p class="timeline-date">2020 - Presente</p>
+                        <p data-es="Múltiples certificaciones en JavaScript, Python, React, Node.js y análisis de datos." data-en="Multiple certifications in JavaScript, Python, React, Node.js, and data analysis.">
+                            Múltiples certificaciones en JavaScript, Python, React, Node.js y análisis de datos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-es="Experiencia Profesional" data-en="Professional Experience">Experiencia Profesional</h2>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <h3 data-es="Desarrollador Full Stack" data-en="Full Stack Developer">Desarrollador Full Stack</h3>
+                        <span class="exp-date">2023 - Presente</span>
+                    </div>
+                    <p class="exp-company" data-es="Proyectos Freelance" data-en="Freelance Projects">Proyectos Freelance</p>
+                    <ul class="exp-description">
+                        <li data-es="Desarrollo de aplicaciones web con React y Node.js" data-en="Web application development with React and Node.js">Desarrollo de aplicaciones web con React y Node.js</li>
+                        <li data-es="Implementación de bases de datos y APIs RESTful" data-en="Database implementation and RESTful APIs">Implementación de bases de datos y APIs RESTful</li>
+                        <li data-es="Optimización de rendimiento y SEO" data-en="Performance optimization and SEO">Optimización de rendimiento y SEO</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <h3 data-es="Analista de Datos" data-en="Data Analyst">Analista de Datos</h3>
+                        <span class="exp-date">2022 - 2023</span>
+                    </div>
+                    <p class="exp-company" data-es="Proyectos de Investigación" data-en="Research Projects">Proyectos de Investigación</p>
+                    <ul class="exp-description">
+                        <li data-es="Análisis de grandes datasets con Python y Pandas" data-en="Big dataset analysis with Python and Pandas">Análisis de grandes datasets con Python y Pandas</li>
+                        <li data-es="Creación de visualizaciones interactivas" data-en="Interactive visualization creation">Creación de visualizaciones interactivas</li>
+                        <li data-es="Automatización de procesos de minería de datos" data-en="Data mining process automation">Automatización de procesos de minería de datos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-es="Proyectos Destacados" data-en="Featured Projects">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-es="Juego de Cartas Multijugador" data-en="Multiplayer Card Game">Juego de Cartas Multijugador</h3>
+                        <p data-es="Aplicación web completa con React, Node.js y Socket.io para juego en tiempo real." data-en="Complete web application with React, Node.js and Socket.io for real-time gaming.">
+                            Aplicación web completa con React, Node.js y Socket.io para juego en tiempo real.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Socket.io</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-es="Sistema de Minería de Datos" data-en="Data Mining System">Sistema de Minería de Datos</h3>
+                        <p data-es="Herramientas automatizadas para scraping y análisis de datos web con Python." data-en="Automated tools for web scraping and data analysis with Python.">
+                            Herramientas automatizadas para scraping y análisis de datos web con Python.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>BeautifulSoup</span>
+                            <span>Pandas</span>
+                            <span>Selenium</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-es="Chat en Tiempo Real" data-en="Real-time Chat">Chat en Tiempo Real</h3>
+                        <p data-es="Aplicación de chat con Firebase para comunicación instantánea y gestión de usuarios." data-en="Chat application with Firebase for instant communication and user management.">
+                            Aplicación de chat con Firebase para comunicación instantánea y gestión de usuarios.
+                        </p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Firebase</span>
+                            <span>HTML/CSS</span>
+                            <span>Webflow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-es="Habilidades Técnicas" data-en="Technical Skills">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-es="Frontend" data-en="Frontend">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 data-es="Backend" data-en="Backend">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Node.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 data-es="Herramientas" data-en="Tools">Herramientas</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Git/GitHub</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Firebase</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>VS Code</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-es="¡Trabajemos Juntos!" data-en="Let's Work Together!">¡Trabajemos Juntos!</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-es="¿Tienes un proyecto en mente?" data-en="Have a project in mind?">¿Tienes un proyecto en mente?</h3>
+                    <p data-es="Estoy disponible para nuevos proyectos y oportunidades. No dudes en contactarme." data-en="I'm available for new projects and opportunities. Don't hesitate to contact me.">
+                        Estoy disponible para nuevos proyectos y oportunidades. No dudes en contactarme.
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>miguel.hidalgo@email.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+34 XXX XXX XXX</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-es="España" data-en="Spain">España</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name" data-es="Tu Nombre" data-en="Your Name">Tu Nombre</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email" data-es="Tu Email" data-en="Your Email">Tu Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required></textarea>
+                            <label for="message" data-es="Tu Mensaje" data-en="Your Message">Tu Mensaje</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-es="Enviar Mensaje" data-en="Send Message">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Miguel Ángel Hidalgo. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></p>
+                <p data-es="Hecho con ❤️ y mucho café" data-en="Made with ❤️ and lots of coffee">Hecho con ❤️ y mucho café</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
