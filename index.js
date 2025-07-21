@@ -45,6 +45,11 @@ const translations = {
         'Análisis de grandes datasets con Python y Pandas': 'Análisis de grandes datasets con Python y Pandas',
         'Creación de visualizaciones interactivas': 'Creación de visualizaciones interactivas',
         'Automatización de procesos de minería de datos': 'Automatización de procesos de minería de datos',
+        'Desarrollador Web & Analista Junior': 'Desarrollador Web & Analista Junior',
+        'Mejoré y reestructuré el sitio web oficial de la empresa en Webflow, agregando nuevas secciones adaptadas a las necesidades comerciales en evolución': 'Mejoré y reestructuré el sitio web oficial de la empresa en Webflow, agregando nuevas secciones adaptadas a las necesidades comerciales en evolución',
+        'Construí un sistema de chat en vivo con Webflow, Firebase y EmailJS, incluyendo un panel de administración personalizado adaptado al flujo de trabajo del usuario': 'Construí un sistema de chat en vivo con Webflow, Firebase y EmailJS, incluyendo un panel de administración personalizado adaptado al flujo de trabajo del usuario',
+        'Desarrollé extracción automatizada de datos de mercado e insights de competidores mediante minería de datos y scraping usando Python, Beautiful Soup y Requests': 'Desarrollé extracción automatizada de datos de mercado e insights de competidores mediante minería de datos y scraping usando Python, Beautiful Soup y Requests',
+        'Trabajé de manera autónoma como desarrollador web y analista junior, aprendiendo constantemente y apoyando a la dirección': 'Trabajé de manera autónoma como desarrollador web y analista junior, aprendiendo constantemente y apoyando a la dirección',
         
         // Projects section
         'Proyectos Destacados': 'Proyectos Destacados',
@@ -171,6 +176,11 @@ const translations = {
         'Análisis de grandes datasets con Python y Pandas': 'Big dataset analysis with Python and Pandas',
         'Creación de visualizaciones interactivas': 'Interactive visualization creation',
         'Automatización de procesos de minería de datos': 'Data mining process automation',
+        'Desarrollador Web & Analista Junior': 'Web Developer & Junior Analyst',
+        'Mejoré y reestructuré el sitio web oficial de la empresa en Webflow, agregando nuevas secciones adaptadas a las necesidades comerciales en evolución': 'Improved and restructured the company\'s official website hosted on Webflow, adding new sections tailored to evolving business needs',
+        'Construí un sistema de chat en vivo con Webflow, Firebase y EmailJS, incluyendo un panel de administración personalizado adaptado al flujo de trabajo del usuario': 'Built a live chat system with Webflow, Firebase, and EmailJS, including a custom admin panel tailored to the user\'s workflow',
+        'Desarrollé extracción automatizada de datos de mercado e insights de competidores mediante minería de datos y scraping usando Python, Beautiful Soup y Requests': 'Developed automated market data & competitor insight extraction via data mining & scrapping using Python, Beautiful Soup, and Requests',
+        'Trabajé de manera autónoma como desarrollador web y analista junior, aprendiendo constantemente y apoyando a la dirección': 'Worked autonomously as a web developer and junior analyst, constantly learning and supporting management',
         
         // Projects section
         'Proyectos Destacados': 'Featured Projects',
