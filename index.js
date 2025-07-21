@@ -8,13 +8,14 @@ const translations = {
         'Estudios': 'Estudios',
         'Experiencia': 'Experiencia',
         'Proyectos': 'Proyectos',
-        'Habilidades': 'Habilidades',
+        'Servicios': 'Servicios',
+        'Clases': 'Clases',
         'Contacto': 'Contacto',
         
         // Hero section
         'Hola, soy': 'Hola, soy',
         'Desarrollador Full Stack & Analista de Datos': 'Desarrollador Full Stack & Analista de Datos',
-        'Apasionado por la tecnología, con experiencia en desarrollo web, análisis de datos y automatización. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.': 'Apasionado por la tecnología, con experiencia en desarrollo web, análisis de datos y automatización. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.',
+        'Apasionado por la tecnología, con experiencia en desarrollo web, análisis de datos y automatización. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.': 'Des apasionado por la tecnología, con experiencia en desarrollo web, análisis de datos y automatización. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.',
         'Contáctame': 'Contáctame',
         'Ver Proyectos': 'Ver Proyectos',
         
@@ -72,7 +73,60 @@ const translations = {
         
         // Footer
         'Todos los derechos reservados.': 'Todos los derechos reservados.',
-        'Hecho con ❤️ y mucho café': 'Hecho con ❤️ y mucho café'
+        'Hecho con ❤️ y mucho café': 'Hecho con ❤️ y mucho café',
+        
+        // New sections
+        'Servicios': 'Servicios',
+        'Desarrollo Web': 'Desarrollo Web',
+        'Creación de aplicaciones web modernas y responsivas utilizando las últimas tecnologías.': 'Creación de aplicaciones web modernas y responsivas utilizando las últimas tecnologías.',
+        'Análisis de Datos': 'Análisis de Datos',
+        'Procesamiento y análisis de datos para obtener insights valiosos para tu negocio.': 'Procesamiento y análisis de datos para obtener insights valiosos para tu negocio.',
+        'Desarrollo de Juegos': 'Desarrollo de Juegos',
+        'Creación de juegos web interactivos y aplicaciones de entretenimiento.': 'Creación de juegos web interactivos y aplicaciones de entretenimiento.',
+        
+        // Teaching section
+        'Clases Particulares': 'Clases Particulares',
+        '¿Quieres aprender a programar?': '¿Quieres aprender a programar?',
+        'Ofrezco clases particulares de programación adaptadas a tu nivel y objetivos. Mi método se basa en la práctica y proyectos reales.': 'Ofrezco clases particulares de programación adaptadas a tu nivel y objetivos. Mi método se basa en la práctica y proyectos reales.',
+        'Clases Personalizadas': 'Clases Personalizadas',
+        'Adaptadas a tu ritmo y nivel': 'Adaptadas a tu ritmo y nivel',
+        'Proyectos Prácticos': 'Proyectos Prácticos',
+        'Aprende creando aplicaciones reales': 'Aprende creando aplicaciones reales',
+        'Horarios Flexibles': 'Horarios Flexibles',
+        'Online y presencial disponible': 'Online y presencial disponible',
+        'Materias que Enseño': 'Materias que Enseño',
+        'Java, JavaScript, Python, HTML/CSS, PHP, SQL': 'Java, JavaScript, Python, HTML/CSS, PHP, SQL',
+        'Ver Curso de Web Development': 'Ver Curso de Web Development',
+        'Tecnologías Detalladas': 'Tecnologías Detalladas',
+        
+        // Experience dates
+        'Julio 2025 - Presente': 'Julio 2025 - Presente',
+        'Marzo 2025 - Julio 2025': 'Marzo 2025 - Julio 2025',
+        
+        // Teaching section
+        'Ver Curso Completo': 'Ver Curso Completo',
+        'Clases Online': 'Clases Online',
+        'Horarios flexibles y aprendizaje desde casa': 'Horarios flexibles y aprendizaje desde casa',
+        
+        // Updated navigation
+        'Hobbies': 'Voluntariado',
+        
+        // Updated Voluntariado section
+        'Voluntariado y Participaciones': 'Voluntariado y Participaciones',
+        'LLM Mayhem: Red Teaming LLMs': 'LLM Mayhem: Red Teaming LLMs',
+        'Julio 2025 - Cork, Irlanda': 'Julio 2025 - Cork, Irlanda',
+        'Participante en workshop práctico sobre identificación de vulnerabilidades en sistemas de IA y chatbots LLM. Dirigido por Jim Simpson (SANS), obteniendo experiencia práctica en ciberseguridad aplicada a IA.': 'Participante en workshop práctico sobre identificación de vulnerabilidades en sistemas de IA y chatbots LLM. Dirigido por Jim Simpson (SANS), obteniendo experiencia práctica en ciberseguridad aplicada a IA.',
+        'Ver Evento': 'Ver Evento',
+        'Proyectos Open Source': 'Proyectos Open Source',
+        'Contribución activa a proyectos de código abierto, compartiendo conocimientos y colaborando con la comunidad de desarrolladores global.': 'Contribución activa a proyectos de código abierto, compartiendo conocimientos y colaborando con la comunidad de desarrolladores global.',
+        'Ver GitHub': 'Ver GitHub',
+        'Mentoría Tecnológica': 'Mentoría Tecnológica',
+        'Apoyo y guía a estudiantes y desarrolladores junior en su camino de aprendizaje, compartiendo experiencias y mejores prácticas en programación.': 'Apoyo y guía a estudiantes y desarrolladores junior en su camino de aprendizaje, compartiendo experiencias y mejores prácticas en programación.',
+        'Comunidad Tech Local': 'Comunidad Tech Local',
+        'Participación activa en eventos y meetups tecnológicos locales, fomentando el intercambio de conocimientos y el networking profesional.': 'Participación activa en eventos y meetups tecnológicos locales, fomentando el intercambio de conocimientos y el networking profesional.',
+
+        // Remove unused translations for deleted cards
+        // Keep only LLM Mayhem and Open Source Projects translations
     },
     en: {
         // Navigation
@@ -80,7 +134,8 @@ const translations = {
         'Estudios': 'Education',
         'Experiencia': 'Experience',
         'Proyectos': 'Projects',
-        'Habilidades': 'Skills',
+        'Servicios': 'Services',
+        'Clases': 'Teaching',
         'Contacto': 'Contact',
         
         // Hero section
@@ -144,7 +199,60 @@ const translations = {
         
         // Footer
         'Todos los derechos reservados.': 'All rights reserved.',
-        'Hecho con ❤️ y mucho café': 'Made with ❤️ and lots of coffee'
+        'Hecho con ❤️ y mucho café': 'Made with ❤️ and lots of coffee',
+        
+        // New sections
+        'Servicios': 'Services',
+        'Desarrollo Web': 'Web Development',
+        'Creación de aplicaciones web modernas y responsivas utilizando las últimas tecnologías.': 'Creation of modern and responsive web applications using the latest technologies.',
+        'Análisis de Datos': 'Data Analysis',
+        'Procesamiento y análisis de datos para obtener insights valiosos para tu negocio.': 'Data processing and analysis to obtain valuable insights for your business.',
+        'Desarrollo de Juegos': 'Game Development',
+        'Creación de juegos web interactivos y aplicaciones de entretenimiento.': 'Creation of interactive web games and entertainment applications.',
+        
+        // Teaching section
+        'Clases Particulares': 'Private Tutoring',
+        '¿Quieres aprender a programar?': 'Want to learn programming?',
+        'Ofrezco clases particulares de programación adaptadas a tu nivel y objetivos. Mi método se basa en la práctica y proyectos reales.': 'I offer private programming classes adapted to your level and goals. My method is based on practice and real projects.',
+        'Clases Personalizadas': 'Personalized Classes',
+        'Adaptadas a tu ritmo y nivel': 'Adapted to your pace and level',
+        'Proyectos Prácticos': 'Practical Projects',
+        'Aprende creando aplicaciones reales': 'Learn by creating real applications',
+        'Horarios Flexibles': 'Flexible Schedule',
+        'Online y presencial disponible': 'Online and in-person available',
+        'Materias que Enseño': 'Subjects I Teach',
+        'Java, JavaScript, Python, HTML/CSS, PHP, SQL': 'Java, JavaScript, Python, HTML/CSS, PHP, SQL',
+        'Ver Curso de Web Development': 'View Web Development Course',
+        'Tecnologías Detalladas': 'Detailed Technologies',
+        
+        // Experience dates
+        'Julio 2025 - Presente': 'July 2025 - Present',
+        'Marzo 2025 - Julio 2025': 'March 2025 - July 2025',
+        
+        // Teaching section
+        'Ver Curso Completo': 'View Full Course',
+        'Clases Online': 'Online Classes',
+        'Horarios flexibles y aprendizaje desde casa': 'Flexible schedules and learning from home',
+        
+        // Updated navigation
+        'Hobbies': 'Volunteering',
+        
+        // Updated Voluntariado section
+        'Voluntariado y Participaciones': 'Volunteering & Participation',
+        'LLM Mayhem: Red Teaming LLMs': 'LLM Mayhem: Red Teaming LLMs',
+        'Julio 2025 - Cork, Irlanda': 'July 2025 - Cork, Ireland',
+        'Participante en workshop práctico sobre identificación de vulnerabilidades en sistemas de IA y chatbots LLM. Dirigido por Jim Simpson (SANS), obteniendo experiencia práctica en ciberseguridad aplicada a IA.': 'Participant in hands-on workshop on identifying vulnerabilities in AI systems and LLM chatbots. Led by Jim Simpson (SANS), gaining practical experience in cybersecurity applied to AI.',
+        'Ver Evento': 'View Event',
+        'Proyectos Open Source': 'Open Source Projects',
+        'Contribución activa a proyectos de código abierto, compartiendo conocimientos y colaborando con la comunidad de desarrolladores global.': 'Active contribution to open source projects, sharing knowledge and collaborating with the global developer community.',
+        'Ver GitHub': 'View GitHub',
+        'Mentoría Tecnológica': 'Tech Mentoring',
+        'Apoyo y guía a estudiantes y desarrolladores junior en su camino de aprendizaje, compartiendo experiencias y mejores prácticas en programación.': 'Support and guidance for students and junior developers in their learning journey, sharing experiences and best practices in programming.',
+        'Comunidad Tech Local': 'Local Tech Community',
+        'Participación activa en eventos y meetups tecnológicos locales, fomentando el intercambio de conocimientos y el networking profesional.': 'Active participation in local tech events and meetups, fostering knowledge exchange and professional networking.',
+
+        // Remove unused translations for deleted cards
+        // Keep only LLM Mayhem and Open Source Projects translations
     }
 };
 
@@ -280,7 +388,7 @@ const observeSkills = () => {
 
 // Animate elements on scroll
 const animateOnScroll = () => {
-    const elements = document.querySelectorAll('.timeline-content, .experience-item, .project-card, .skill-category');
+    const elements = document.querySelectorAll('.timeline-content, .experience-item, .project-card, .service-card, .teaching-feature, .subject-item, .hobby-card');
     
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -299,25 +407,40 @@ const animateOnScroll = () => {
     });
 };
 
-// Contact form handling
-contactForm.addEventListener('submit', (e) => {
+// Contact form handling - Updated for Formspree
+contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     
     const formData = new FormData(contactForm);
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
     
-    // Here you would typically send the form data to a server
-    // For now, we'll just show a success message
-    showNotification(
-        currentLanguage === 'es' 
-            ? '¡Mensaje enviado correctamente! Te contactaré pronto.' 
-            : 'Message sent successfully! I\'ll contact you soon.',
-        'success'
-    );
-    
-    contactForm.reset();
+    try {
+        const response = await fetch(contactForm.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+        
+        if (response.ok) {
+            showNotification(
+                currentLanguage === 'es' 
+                    ? '¡Mensaje enviado correctamente! Te contactaré pronto.' 
+                    : 'Message sent successfully! I\'ll contact you soon.',
+                'success'
+            );
+            contactForm.reset();
+        } else {
+            throw new Error('Network response was not ok');
+        }
+    } catch (error) {
+        showNotification(
+            currentLanguage === 'es' 
+                ? 'Error al enviar el mensaje. Por favor, intenta de nuevo.' 
+                : 'Error sending message. Please try again.',
+            'error'
+        );
+    }
 });
 
 // Notification system
@@ -326,11 +449,23 @@ function showNotification(message, type = 'info') {
     notification.className = `notification notification-${type}`;
     notification.textContent = message;
     
+    let backgroundColor;
+    switch(type) {
+        case 'success':
+            backgroundColor = '#10b981';
+            break;
+        case 'error':
+            backgroundColor = '#ef4444';
+            break;
+        default:
+            backgroundColor = '#dc2626';
+    }
+    
     notification.style.cssText = `
         position: fixed;
         top: 90px;
         right: 20px;
-        background: ${type === 'success' ? '#10b981' : '#6366f1'};
+        background: ${backgroundColor};
         color: white;
         padding: 1rem 1.5rem;
         border-radius: 8px;
@@ -421,13 +556,15 @@ function copyEmail(email) {
 
 // Add click handler for email
 document.addEventListener('DOMContentLoaded', () => {
-    const emailElement = document.querySelector('.contact-item span');
-    if (emailElement && emailElement.textContent.includes('@')) {
-        emailElement.style.cursor = 'pointer';
-        emailElement.addEventListener('click', () => {
-            copyEmail(emailElement.textContent);
-        });
-    }
+    const emailElements = document.querySelectorAll('.contact-item span');
+    emailElements.forEach(element => {
+        if (element.textContent.includes('@')) {
+            element.style.cursor = 'pointer';
+            element.addEventListener('click', () => {
+                copyEmail(element.textContent);
+            });
+        }
+    });
 });
 
 // Initialize everything when DOM is loaded
