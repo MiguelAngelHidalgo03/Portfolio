@@ -9,7 +9,9 @@ const translations = {
         'Experiencia': 'Experiencia',
         'Proyectos': 'Proyectos',
         'Servicios': 'Servicios',
+        'Habilidades': 'Habilidades',
         'Clases': 'Clases',
+        'Voluntariado': 'Voluntariado',
         'Contacto': 'Contacto',
         
         // Hero section
@@ -35,7 +37,7 @@ const translations = {
         
         // Experience section
         'Experiencia Profesional': 'Experiencia Profesional',
-        'Desarrollador Full Stack': 'Desarrollador Full Stack',
+        'Desarrollador y Automation Engineer': 'Desarrollador y Automation Engineer',
         'Proyectos Freelance': 'Proyectos Freelance',
         'Desarrollo de aplicaciones web con React y Node.js': 'Desarrollo de aplicaciones web con React y Node.js',
         'Implementación de bases de datos y APIs RESTful': 'Implementación de bases de datos y APIs RESTful',
@@ -62,9 +64,17 @@ const translations = {
         
         // Skills section
         'Habilidades Técnicas': 'Habilidades Técnicas',
-        'Frontend': 'Frontend',
-        'Backend': 'Backend',
+        'Lenguajes de Programación': 'Lenguajes de Programación',
+        'Frameworks y Librerías': 'Frameworks y Librerías',
+        'Bases de Datos': 'Bases de Datos',
         'Herramientas': 'Herramientas',
+        'Otras Habilidades': 'Otras Habilidades',
+        'Deployment & DevOps': 'Deployment & DevOps',
+        'C# (Familiar)': 'C# (Familiar)',
+        'Testing (JUnit, pruebas unitarias)': 'Testing (JUnit, pruebas unitarias)',
+        'Web Scraping (Beautiful Soup, Requests)': 'Web Scraping (Beautiful Soup, Requests)',
+        'Diseño UI/UX': 'Diseño UI/UX',
+        'XAMPP (desarrollo local)': 'XAMPP (desarrollo local)',
         
         // Contact section
         '¡Trabajemos Juntos!': '¡Trabajemos Juntos!',
@@ -117,7 +127,7 @@ const translations = {
         'Hobbies': 'Voluntariado',
         
         // Updated Voluntariado section
-        'Voluntariado y Participaciones': 'Voluntariado y Participaciones',
+        'Voluntariado y Formación Complementaria': 'Voluntariado y Formación Complementaria',
         'LLM Mayhem: Red Teaming LLMs': 'LLM Mayhem: Red Teaming LLMs',
         'Julio 2025 - Cork, Irlanda': 'Julio 2025 - Cork, Irlanda',
         'Participante en workshop práctico sobre identificación de vulnerabilidades en sistemas de IA y chatbots LLM. Dirigido por Jim Simpson (SANS), obteniendo experiencia práctica en ciberseguridad aplicada a IA.': 'Participante en workshop práctico sobre identificación de vulnerabilidades en sistemas de IA y chatbots LLM. Dirigido por Jim Simpson (SANS), obteniendo experiencia práctica en ciberseguridad aplicada a IA.',
@@ -140,7 +150,9 @@ const translations = {
         'Experiencia': 'Experience',
         'Proyectos': 'Projects',
         'Servicios': 'Services',
+        'Habilidades': 'Skills',
         'Clases': 'Teaching',
+        'Voluntariado': 'Volunteering',
         'Contacto': 'Contact',
         
         // Hero section
@@ -166,7 +178,7 @@ const translations = {
         
         // Experience section
         'Experiencia Profesional': 'Professional Experience',
-        'Desarrollador Full Stack': 'Full Stack Developer',
+        'Desarrollador y Automation Engineer': 'Developer & Automation Engineer',
         'Proyectos Freelance': 'Freelance Projects',
         'Desarrollo de aplicaciones web con React y Node.js': 'Web application development with React and Node.js',
         'Implementación de bases de datos y APIs RESTful': 'Database implementation and RESTful APIs',
@@ -193,9 +205,17 @@ const translations = {
         
         // Skills section
         'Habilidades Técnicas': 'Technical Skills',
-        'Frontend': 'Frontend',
-        'Backend': 'Backend',
+        'Lenguajes de Programación': 'Programming Languages',
+        'Frameworks y Librerías': 'Frameworks & Libraries',
+        'Bases de Datos': 'Databases',
         'Herramientas': 'Tools',
+        'Otras Habilidades': 'Other Skills',
+        'Deployment & DevOps': 'Deployment & DevOps',
+        'C# (Familiar)': 'C# (Familiar)',
+        'Testing (JUnit, pruebas unitarias)': 'Testing (JUnit, unit testing)',
+        'Web Scraping (Beautiful Soup, Requests)': 'Web Scraping (Beautiful Soup, Requests)',
+        'Diseño UI/UX': 'UI/UX Design',
+        'XAMPP (desarrollo local)': 'XAMPP (local development)',
         
         // Contact section
         '¡Trabajemos Juntos!': 'Let\'s Work Together!',
