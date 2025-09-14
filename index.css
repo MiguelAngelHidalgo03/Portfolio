@@ -367,6 +367,17 @@ section {
     color: var(--text-secondary);
 }
 
+/* Ensure body text is justified in key content areas (applies to mobile and desktop) */
+.about-text,
+.hero-description,
+.timeline-content p,
+.experience-item p,
+.exp-description,
+.exp-description li,
+.project-content p {
+    text-align: justify;
+}
+
 .about-stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -419,6 +430,31 @@ section {
     max-width: 800px;
     margin: 0 auto;
     position: relative;
+}
+
+/* Coursera link styling to match screenshot (red links) */
+.coursera-link {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+.coursera-link:hover {
+    text-decoration: underline;
+}
+
+/* Coursera bullet list styling */
+.coursera-list {
+    margin: 0.5rem 0 0 1.1rem;
+    padding: 0;
+}
+.coursera-list li {
+    margin: 0.4rem 0;
+    color: var(--text-secondary);
+    line-height: 1.45;
+}
+.coursera-list li .coursera-link {
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 .education-timeline::before {
@@ -536,7 +572,7 @@ section {
 .exp-company {
     color: var(--primary-color);
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 0; /* normalize spacing: use .exp-description margin-top instead */
     text-decoration: none;
     transition: color 0.3s ease;
     display: inline-block;
@@ -547,9 +583,31 @@ section {
     text-decoration: underline;
 }
 
+/* Sub-role links (e.g., Café Pub Refugio, La Noria, La Santa) should match exp-company styling */
+.sub-role a {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+.sub-role a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+/* Normalize spacing so distance to bullets is consistent */
+.sub-role {
+    margin: 0 0 0 0;
+    display: block;
+}
+
+.experience-item > p {
+    margin: 0 0 0 0;
+}
+
 .exp-description {
     list-style: none;
     color: var(--text-secondary);
+    margin-top: 1rem; /* consistent gap from previous text */
 }
 
 .exp-description li {
@@ -1512,9 +1570,19 @@ html, body {
 }
 
 .hobbies {
-    overflow-x: hidden;
+    /* prevent a separate scrollbar inside the hobbies section on desktop */
+    overflow: visible;
 }
 
 .hobbies .container {
-    overflow-x: hidden;
+    overflow: visible;
+}
+
+/* make hobby cards wrap more flexibly to avoid internal scroll */
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
 }
