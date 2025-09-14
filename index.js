@@ -340,7 +340,12 @@ function updateLanguage() {
         if (element.tagName.toLowerCase() === 'input' || element.tagName.toLowerCase() === 'textarea') {
             element.placeholder = translation;
         } else {
-            element.textContent = translation;
+            // If translation contains HTML (anchors, lists), assign as innerHTML so links remain clickable.
+            if (translation && translation.indexOf('<') !== -1) {
+                element.innerHTML = translation;
+            } else {
+                element.textContent = translation;
+            }
         }
     });
 
@@ -350,7 +355,11 @@ function updateLanguage() {
         const translation = currentLanguage === 'es' 
             ? label.getAttribute('data-es')
             : label.getAttribute('data-en');
-        label.textContent = translation;
+        if (translation && translation.indexOf('<') !== -1) {
+            label.innerHTML = translation;
+        } else {
+            label.textContent = translation;
+        }
     });
 
     // Update document language attribute
